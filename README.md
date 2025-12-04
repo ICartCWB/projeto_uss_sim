@@ -22,19 +22,20 @@ Simular um ambiente UTM (Unmanned Traffic Management) onde múltiplos operadores
 projeto_uss_sim/
 │
 ├── app.py                   # Interface do usuário (Streamlit Frontend)
-├── config.py                # Configurações globais (Resolução H3, Margens)
+├── config.py                # Configurações globais
 ├── requirements.txt         # Dependências do projeto
 │
 ├── core/                    # Lógica de Negócio (Backend)
 │   ├── __init__.py
 │   ├── models.py            # Dataclasses (FlightIntent, Waypoint)
 │   ├── uss_engine.py        # Motor de decisão do USS
+│   ├── geo_algorithms.py    # Script de busca geográfica vetorial
 │   ├── obstacle_model.py    # Carregamento do kml e da classe H3ObstacleModel
-│   └── tactical_navigator.py # Algoritmo de busca/verificação
+│   └── hcp.py               # Algoritmo de busca/verificação
 │
-├── tests/                    # NOVA PASTA
+├── tests/                    # Testes
 │   ├── __init__.py           # Arquivo vazio
-│   └── test_integration.py   # O script de teste abaixo
+│   └── *.py                  # Scripts de testes
 │
 └── utils/                   # Utilitários
     ├── __init__.py
