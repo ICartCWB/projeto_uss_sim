@@ -1,0 +1,13 @@
+streamlit
+pydeck
+pandas
+h3>=4.0.0
+numpy
+geopy
+gym-pybullet-drones
+shapely
+fastkml
+pygeoif
+lxml
+folium
+streamlit_folium
