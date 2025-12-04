@@ -39,4 +39,4 @@ projeto_uss_sim/
 │
 └── utils/                   # Utilitários
     ├── __init__.py
-    └── geo_utils.py         # Conversões e helpers H3
+    └── geo_utils.py         # Não utilizado
