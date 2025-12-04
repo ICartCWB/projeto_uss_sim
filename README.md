@@ -11,7 +11,7 @@ Simular um ambiente UTM (Unmanned Traffic Management) onde múltiplos operadores
 ## 🚀 Funcionalidades Principais
 
 * **Interface Operador vs. USS:** Dashboard interativo desenvolvido em Streamlit.
-* **Algoritmo `TacticalNavigator`:** Motor de verificação de rotas que utiliza **H3 (Uber DGGS)** com resolução adaptativa (Zoom-in em áreas de risco) para detecção eficiente de conflitos.
+* **Algoritmo `HCP: Hierarchical Conflict Probe`:** Motor de verificação de rotas que utiliza **H3 (Uber DGGS)** com resolução adaptativa (Zoom-in em áreas de risco) para detecção eficiente de conflitos.
 * **Desconflito Estratégico:** Validação de trajetórias 4D (Latitude, Longitude, Altitude, Tempo).
 * **Resolução de Conflitos:** O USS sugere automaticamente alterações de altitude ou janela de tempo caso a rota solicitada esteja bloqueada.
 * **Visualização Geoespacial:** Renderização das rotas aprovadas em mapa 3D interativo via PyDeck.
